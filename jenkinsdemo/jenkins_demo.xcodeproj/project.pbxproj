@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3BE563F11962E8A700912993 /* testCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE563F01962E8A700912993 /* testCase.m */; };
 		3BF1AA8F195C15C400C31EE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BF1AA8E195C15C400C31EE4 /* Foundation.framework */; };
 		3BF1AA91195C15C400C31EE4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BF1AA90195C15C400C31EE4 /* CoreGraphics.framework */; };
 		3BF1AA93195C15C400C31EE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BF1AA92195C15C400C31EE4 /* UIKit.framework */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3BE563F01962E8A700912993 /* testCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testCase.m; sourceTree = "<group>"; };
 		3BF1AA8B195C15C400C31EE4 /* jenkins_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jenkins_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BF1AA8E195C15C400C31EE4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3BF1AA90195C15C400C31EE4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -119,6 +121,7 @@
 				3BF1AAA4195C15C400C31EE4 /* ViewController.m */,
 				3BF1AAA6195C15C400C31EE4 /* Images.xcassets */,
 				3BF1AA95195C15C400C31EE4 /* Supporting Files */,
+				3BE563F01962E8A700912993 /* testCase.m */,
 			);
 			path = jenkins_demo;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BF1AABA195C15C400C31EE4 /* jenkins_demoTests.m in Sources */,
+				3BE563F11962E8A700912993 /* testCase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +464,7 @@
 				3BF1AABF195C15C500C31EE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3BF1AAC0195C15C500C31EE4 /* Build configuration list for PBXNativeTarget "jenkins_demoTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +473,7 @@
 				3BF1AAC2195C15C500C31EE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
